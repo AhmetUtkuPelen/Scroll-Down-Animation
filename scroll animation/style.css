@@ -1,0 +1,21 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+.scroll-down{
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: #111;
+}
+.see-me{
+color: white;
+font-size: 50px;
+-webkit-box-reflect: below -50px linear-gradient(transparent,#0002);
+}
+.see-me span:nth-child(n+12){
+color: turquoise;
+font-weight: 800;
+}
